@@ -1,0 +1,10 @@
+- params:
+    git:
+      repoName: flask-webgoat
+      branches:
+        - master
+    scan:
+      projects:
+        - workingDirs:
+            - action
+          pipRequirementsFile: requirements.txt
