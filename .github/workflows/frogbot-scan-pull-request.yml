@@ -61,6 +61,8 @@ jobs:
 
           JF_REQUIREMENTS_FILE: "requirements.txt"
 
+          JFROG_CLI_ANALYZER_MANAGER_VERSION: "1.3.0-beta11"
+
           ##########################################################################
           ##   If your project uses a 'frogbot-config.yml' file, you can define   ##
           ##   the following variables inside the file, instead of here.          ##
