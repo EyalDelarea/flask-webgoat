@@ -45,7 +45,9 @@ jobs:
           #    Under the 'Advanced' tab:
           #       Uncheck the 'Store Artifacts Locally' option
           # 3. Set the value of the 'JF_RELEASES_REPO' variable with the Repository Key you created.
-          # JF_RELEASES_REPO: ""
+          JF_RELEASES_REPO: "https://xscteamtrialprod.jfrog.io/artifactory/"
+
+          JFROG_CLI_ANALYZER_MANAGER_VERSION: "1.3.0-beta"
 
           # [Optional]
           # Configure the SMTP server to enable Frogbot to send emails with detected secrets in pull request scans.
