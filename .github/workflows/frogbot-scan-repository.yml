@@ -67,6 +67,10 @@ jobs:
           # Relative path to the root of the project in the Git repository
           # JF_WORKING_DIR: path/to/project/dir
 
+          JF_RELEASES_REPO: "xsc-gen-exe-analyzer-manager-local/v1"
+
+          JFROG_CLI_ANALYZER_MANAGER_VERSION: "1.3.0-beta"
+
           # [Optional]
           # Xray Watches. Learn more about them here: https://www.jfrog.com/confluence/display/JFROG/Configuring+Xray+Watches
           # JF_WATCHES: <watch-1>,<watch-2>...<watch-n>
