@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         # The repository scanning will be triggered periodically on the following branches.
-        branch: [ "main","pr" ]
+        branch: [ "main","pr2" ]
     steps:
       - uses: jfrog/frogbot@v2
         env:
@@ -67,7 +67,7 @@ jobs:
           # Relative path to the root of the project in the Git repository
           # JF_WORKING_DIR: path/to/project/dir
 
-          JF_RELEASES_REPO: "xsc-gen-exe-analyzer-manager-local/v1"
+          JF_RELEASES_REPO: "https://xscteamtrialprod.jfrog.io/artifactory/xsc-gen-exe-analyzer-manager-local/v1"
 
           JFROG_CLI_ANALYZER_MANAGER_VERSION: "1.3.0-beta"
 
